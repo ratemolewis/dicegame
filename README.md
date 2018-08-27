@@ -9,10 +9,10 @@ Events are triggered by clicking on buttons. The roll fuction is triggered by th
 
 Technologies Used
 
-#css
-#js
-#Jquery
-#HTML
+#css<br>
+#js<br>
+#Jquery<br>
+#HTML<br>
 
 Specs of the program
 
