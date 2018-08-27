@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/master.css">
+    <script src="js/jquery-1.7.1.js" charset="utf-8"></script>
+    <title>Pig Dice</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Pig Dice</h1><br>
+          <h2>click &nbsp;
+          <button type="button" name="button" class="btn btn-outline-danger" onclick="start()">start</button> &nbsp; play</h2>
+          <br>
+        </div>
+
+        <div class="col-md-6" id="user1">
+          <h2 id="prayer1">Player 1</h2><br>
+          <h3>Score</h3><br>
+          <h1><span class="score" id="totalresult">0</span></h1><br><br>
+          <h3>Current Score</h3><br>
+          <h1><span class="cscore" id="randomResult">0</span><br>
+          <button type="button" name="button" class="btn btn-outline-danger" onclick="roll1()" id="roll1">Roll Dice</button>
+          <button type="button" name="button" class="btn btn-outline-danger"id="user">hold</button>
+        </div>
+
+        <div class="col-md-6" id="user2">
+          <h2><span id="prayer2">player 2</span></h2><br>
+          <h3>Score</h3><br>
+          <h1><span class="score" id="totalresult2">0</span></h1><br><br>
+          <h3>Current Score</h3><br>
+          <h1><span class="cscore" id="randomResult2">0</span><br>
+          <button type="button" name="button" class="btn btn-outline-danger" onclick="roll2()" id="roll2">Roll Dice</button>
+          <button type="button" name="button" class="btn btn-outline-danger" onclick="hold()">hold</button>
+        </div>
+
+      </div>
+
+    </div>
+  </body>
+  <script src="js/master.js" charset="utf-8"></script>
+</html>
